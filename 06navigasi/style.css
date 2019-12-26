@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul#menu {
+  width: 150px;
+}
+div {
+  text-align: center;
+  margin: auto;
+}

@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#seret {
+  border: 1px solid #cfcfcf;
+  background: #87d1d8;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+#seret p {
+  color: #fff;
+  font-size: 13pt;
+  text-align: center;
+}
+
+.draggable {
+  background: #87d1d8;
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.draggable p {
+  color: #fff;
+  font-size: 13pt;
+  text-align: center;
+  margin-top: 5px;
+}
+#draggable,
+#draggable2 {
+  margin-bottom: 20px;
+}
+#draggable {
+  cursor: n-resize;
+}
+#draggable2 {
+  cursor: e-resize;
+}
+
+h2 {
+  clear: left;
+  text-align: center;
+}
+
+#containment-wrapper {
+  width: 95%;
+  height: 150px;
+  border: 2px solid #ccc;
+  padding: 10px;
+}
+
+p#draggable4 {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+li {
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+}
+div.urutkan {
+  height: 300px;
+}
+
+.ui-widget-header p,
+.ui-widget-content p {
+  margin: 0;
+}
+#snaptarget {
+  height: 140px;
+}
+#snaptarget p {
+  text-align: center;
+}

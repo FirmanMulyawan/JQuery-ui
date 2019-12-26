@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drop</title>
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Membuat Interaksi Droppable Dengan JQuery UI | www.malasngoding.com</h1>
+
+    <div id="seret" class="ui-widget-content">
+        <p>Seret saya om !!</p>
+    </div>
+
+    <div id="drop" class="ui-widget-header">
+        <p>Lepaskan di sini</p>
+    </div>
+
+
+
+    <!-- drop 2  -->
+    <div id="draggable-nonvalid" class="ui-widget-content">
+        <p>I'm draggable but can't be dropped</p>
+    </div>
+
+    <div id="draggable" class="ui-widget-content">
+        <p>Drag me to my target</p>
+    </div>
+
+    <div id="droppable" class="ui-widget-header">
+        <p>accept: '#draggable'</p>
+    </div>
+    <!-- akhir drop 2  -->
+
+    <!-- drop 3  -->
+    <div id="draggable1" class="ui-widget-content">
+        <p>I revert when I'm dropped</p>
+    </div>
+
+    <div id="draggable2" class="ui-widget-content">
+        <p>I revert when I'm not dropped</p>
+    </div>
+
+    <div id="droppable1" class="ui-widget-header">
+        <p>Drop me here</p>
+    </div>
+    <!-- akhir drop 3  -->
+
+
+    <!-- foto  -->
+    <div class="ui-widget ui-helper-clearfix">
+
+        <ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+            <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras</h5>
+                <img src="./jpg.png" alt="The peaks of High Tatras" width="96" height="72">
+                <a href="./jpg.png" title="View larger image" class="ui-icon ui-icon-zoomin">View
+                    larger</a>
+                <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image"
+                    class="ui-icon ui-icon-trash">Delete image</a>
+            </li>
+            <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras 2</h5>
+                <img src="./minions.jpg" alt="The chalet at the Green mountain lake" width="96" height="72">
+                <a href="./minions.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View
+                    larger</a>
+                <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image"
+                    class="ui-icon ui-icon-trash">Delete image</a>
+            </li>
+            <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras 3</h5>
+                <img src="./Hp-circle-blue.jpg" alt="Planning the ascent" width="96" height="72">
+                <a href="./Hp-circle-blue.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View
+                    larger</a>
+                <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image"
+                    class="ui-icon ui-icon-trash">Delete image</a>
+            </li>
+            <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras 4</h5>
+                <img src="./6db61f_65d7ed05a1d14f5da07d2fe7e5962e13_mv2.jpg" alt="On top of Kozi kopka" width="96"
+                    height="72">
+                <a href="./6db61f_65d7ed05a1d14f5da07d2fe7e5962e13_mv2.jpg" title="View larger image"
+                    class="ui-icon ui-icon-zoomin">View
+                    larger</a>
+                <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image"
+                    class="ui-icon ui-icon-trash">Delete image</a>
+            </li>
+        </ul>
+
+        <div id="trash" class="ui-widget-content ui-state-default">
+            <h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+        </div>
+
+    </div>
+    <!-- akhir foto  -->
+    <!-- jquery  -->
+</body>
+<script src="../js/jquery.js"></script>
+<!-- jquery-ui  -->
+<script src="../js/jquery-ui.js"></script>
+
+<!-- javascript buatan sendiri  -->
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+div {
+  text-align: center;
+  display: block;
+  /* margin-bottom: 50px; */
+}
+.input-tanggal,
+.alternate {
+  padding: 10px;
+  font-size: 14pt;
+  margin: 20px;
+  width: 500px;
+}

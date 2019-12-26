@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#seret {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+#drop {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  float: left;
+  margin: 10px;
+}
+
+/* drop 2  */
+#droppable {
+  width: 200px;
+  height: 200px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+}
+#draggable-nonvalid {
+  clear: left;
+}
+#draggable,
+#draggable-nonvalid {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+
+/* drop3  */
+#draggable1 {
+  clear: left;
+}
+#draggable1,
+#draggable2 {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+#droppable1 {
+  width: 200px;
+  height: 200px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+}
+
+/* galerry  */
+#gallery {
+  float: left;
+  width: 65%;
+  min-height: 12em;
+}
+.gallery.custom-state-active {
+  background: #eee;
+}
+.gallery li {
+  float: left;
+  width: 96px;
+  padding: 0.4em;
+  margin: 0 0.4em 0.4em 0;
+  text-align: center;
+}
+.gallery li h5 {
+  margin: 0 0 0.4em;
+  cursor: move;
+}
+.gallery li a {
+  float: right;
+}
+.gallery li a.ui-icon-zoomin {
+  float: left;
+}
+.gallery li img {
+  width: 100%;
+  cursor: move;
+}
+
+#trash {
+  float: right;
+  width: 32%;
+  min-height: 18em;
+  padding: 1%;
+}
+#trash h4 {
+  line-height: 16px;
+  margin: 0 0 0.4em;
+}
+#trash h4 .ui-icon {
+  float: left;
+}
+#trash .gallery h5 {
+  display: none;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag</title>
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Drag pertama</h1>
+
+    <!-- element kotak yang akan di beri fungsi draggable jquery ui-->
+    <div id="seret">
+        <p>INI KOTAK YANG AKAN DI SERET</p>
+    </div>
+
+    <!-- drag yang kedua  -->
+    <h2>Drag kedua</h2>
+
+    <div id="draggable" class="draggable ui-widget-content">
+        <p>I can be dragged only vertically</p>
+    </div>
+
+    <div id="draggable2" class="draggable ui-widget-content">
+        <p>I can be dragged only horizontally</p>
+    </div>
+
+    <!-- drag akhir yang kedua  -->
+
+    <!-- drag tiga  -->
+    <h2>Drag Tiga</h2>
+    <div id="containment-wrapper">
+        <div id="draggable3" class="draggable ui-widget-content">
+            <p>I'm contained within the box</p>
+        </div>
+
+        <div class="draggable ui-widget-content">
+            <p id="draggable4" class="ui-widget-header">I'm contained within my parent</p>
+        </div>
+    </div>
+
+    <!-- akhir drag tiga  -->
+
+    <!-- short  -->
+    <div class="urutkan">
+        <ul>
+            <li id="draggable5" class="ui-state-highlight">Drag me down</li>
+        </ul>
+
+        <ul id="sortable">
+            <li class="ui-state-default">Item 1</li>
+            <li class="ui-state-default">Item 2</li>
+            <li class="ui-state-default">Item 3</li>
+            <li class="ui-state-default">Item 4</li>
+            <li class="ui-state-default">Item 5</li>
+        </ul>
+    </div>
+    <!-- short  -->
+
+
+    <!-- snap  -->
+    <div id="snaptarget" class="ui-widget-header">
+        <p>I'm a snap target</p>
+    </div>
+
+    <br style="clear:both">
+
+    <div id="draggable6" class="draggable ui-widget-content">
+        <p>Default (snap: true), snaps to all other draggable elements</p>
+    </div>
+
+    <div id="draggable7" class="draggable ui-widget-content">
+        <p>I only snap to the big box</p>
+    </div>
+
+    <div id="draggable8" class="draggable ui-widget-content">
+        <p>I only snap to the outer edges of the big box</p>
+    </div>
+
+    <div id="draggable9" class="draggable ui-widget-content">
+        <p>I snap to a 20 x 20 grid</p>
+    </div>
+
+    <div id="draggable10" class="draggable ui-widget-content">
+        <p>I snap to a 80 x 80 grid</p>
+    </div>
+    <!-- akhir snap  -->
+    <!-- jquery  -->
+</body>
+<script src="../js/jquery.js"></script>
+<!-- jquery-ui  -->
+<script src="../js/jquery-ui.js"></script>
+
+<!-- javascript buatan sendiri  -->
+<script src="./script.js"></script>
+
+</html>

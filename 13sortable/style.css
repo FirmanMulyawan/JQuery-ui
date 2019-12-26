@@ -1,0 +1,146 @@
+body {
+  height: 5000px;
+}
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 18px;
+}
+#sortable li span {
+  position: absolute;
+  margin-left: -1.3em;
+}
+
+/* conect-list   */
+#sortable1,
+#sortable2 {
+  border: 1px solid #eee;
+  width: 142px;
+  min-height: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0 0 0;
+  float: left;
+  margin-right: 10px;
+}
+#sortable1 li,
+#sortable2 li {
+  margin: 0 5px 5px 5px;
+  padding: 5px;
+  font-size: 1.2em;
+  width: 120px;
+}
+
+/* display grid  */
+#sortable3 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+}
+#sortable3 li {
+  margin: 3px 3px 3px 0;
+  padding: 1px;
+  float: left;
+  width: 100px;
+  height: 90px;
+  font-size: 4em;
+  text-align: center;
+}
+
+/* placeholder  */
+#sortable4 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#sortable4 li {
+  margin: 0 5px 5px 5px;
+  padding: 5px;
+  font-size: 1.2em;
+  height: 1.5em;
+}
+html > body #sortable4 li {
+  height: 1.5em;
+  line-height: 1.2em;
+}
+.ui-state-highlight {
+  height: 1.5em;
+  line-height: 1.2em;
+}
+
+/* empty list  */
+
+#sortable5,
+#sortable6,
+#sortable7 {
+  list-style-type: none;
+  margin: 0;
+  float: left;
+  margin-right: 10px;
+  background: #eee;
+  padding: 5px;
+  width: 143px;
+}
+#sortable5 li,
+#sortable6 li,
+#sortable7 li {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.2em;
+  width: 120px;
+}
+
+/* item  */
+#sortable8,
+#sortable9 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+}
+#sortable8 li,
+#sortable9 li {
+  margin: 0 5px 5px 5px;
+  padding: 3px;
+  width: 60%;
+}
+
+/* portlets  */
+.column {
+  width: 170px;
+  float: left;
+  padding-bottom: 100px;
+}
+.portlet {
+  margin: 0 1em 1em 0;
+  padding: 0.3em;
+}
+.portlet-header {
+  padding: 0.2em 0.3em;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.portlet-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -8px;
+}
+.portlet-content {
+  padding: 0.4em;
+}
+.portlet-placeholder {
+  border: 1px dotted black;
+  margin: 0 1em 1em 0;
+  height: 50px;
+}

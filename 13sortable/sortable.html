@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shortable</title>
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <ul id="sortable">
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+    </ul>
+
+    <br><br>
+    <!-- conect list  -->
+    <ul id="sortable1" class="connectedSortable">
+        <li class="ui-state-default">Item 1</li>
+        <li class="ui-state-default">Item 2</li>
+        <li class="ui-state-default">Item 3</li>
+        <li class="ui-state-default">Item 4</li>
+        <li class="ui-state-default">Item 5</li>
+    </ul>
+
+    <ul id="sortable2" class="connectedSortable">
+        <li class="ui-state-highlight">Item 1</li>
+        <li class="ui-state-highlight">Item 2</li>
+        <li class="ui-state-highlight">Item 3</li>
+        <li class="ui-state-highlight">Item 4</li>
+        <li class="ui-state-highlight">Item 5</li>
+    </ul>
+
+    <div style="clear: left;"></div>
+    <br><br>
+
+    <!-- display grid  -->
+    <ul id="sortable3">
+        <li class="ui-state-default">1</li>
+        <li class="ui-state-default">2</li>
+        <li class="ui-state-default">3</li>
+        <li class="ui-state-default">4</li>
+        <li class="ui-state-default">5</li>
+        <li class="ui-state-default">6</li>
+        <li class="ui-state-default">7</li>
+        <li class="ui-state-default">8</li>
+        <li class="ui-state-default">9</li>
+        <li class="ui-state-default">10</li>
+        <li class="ui-state-default">11</li>
+        <li class="ui-state-default">12</li>
+    </ul>
+
+    <div style="clear: left;"></div>
+    <br><br>
+    <!-- placeholder  -->
+    <ul id="sortable4">
+        <li class="ui-state-default">Item 1</li>
+        <li class="ui-state-default">Item 2</li>
+        <li class="ui-state-default">Item 3</li>
+        <li class="ui-state-default">Item 4</li>
+        <li class="ui-state-default">Item 5</li>
+        <li class="ui-state-default">Item 6</li>
+        <li class="ui-state-default">Item 7</li>
+    </ul>
+
+    <!-- empty list  -->
+    <br><br>
+    <ul id="sortable5" class="droptrue">
+        <li class="ui-state-default">Can be dropped..</li>
+        <li class="ui-state-default">..on an empty list</li>
+        <li class="ui-state-default">Item 3</li>
+        <li class="ui-state-default">Item 4</li>
+        <li class="ui-state-default">Item 5</li>
+    </ul>
+
+    <ul id="sortable6" class="dropfalse">
+        <li class="ui-state-highlight">Cannot be dropped..</li>
+        <li class="ui-state-highlight">..on an empty list</li>
+        <li class="ui-state-highlight">Item 3</li>
+        <li class="ui-state-highlight">Item 4</li>
+        <li class="ui-state-highlight">Item 5</li>
+    </ul>
+
+    <ul id="sortable7" class="droptrue">
+    </ul>
+
+    <br style="clear:both">
+
+    <br><br>
+    <!-- item  -->
+    <h3 class="docs">Specify which items are sortable:</h3>
+
+    <ul id="sortable8">
+        <li class="ui-state-default">Item 1</li>
+        <li class="ui-state-default ui-state-disabled">(I'm not sortable or a drop target)</li>
+        <li class="ui-state-default ui-state-disabled">(I'm not sortable or a drop target)</li>
+        <li class="ui-state-default">Item 4</li>
+    </ul>
+
+    <h3 class="docs">Cancel sorting (but keep as drop targets):</h3>
+
+    <ul id="sortable9">
+        <li class="ui-state-default">Item 1</li>
+        <li class="ui-state-default ui-state-disabled">(I'm not sortable)</li>
+        <li class="ui-state-default ui-state-disabled">(I'm not sortable)</li>
+        <li class="ui-state-default">Item 4</li>
+    </ul>
+
+
+
+    <!-- portlets  -->
+    <br><br>
+    <div class="column">
+
+        <div class="portlet">
+            <div class="portlet-header">Feeds</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+        </div>
+
+        <div class="portlet">
+            <div class="portlet-header">News</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+        </div>
+
+    </div>
+
+    <div class="column">
+
+        <div class="portlet">
+            <div class="portlet-header">Shopping</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+        </div>
+
+    </div>
+
+    <div class="column">
+
+        <div class="portlet">
+            <div class="portlet-header">Links</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+        </div>
+
+        <div class="portlet">
+            <div class="portlet-header">Images</div>
+            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+        </div>
+
+    </div>
+    <!-- jquery  -->
+</body>
+<script src="../js/jquery.js"></script>
+<!-- jquery-ui  -->
+<script src="../js/jquery-ui.js"></script>
+
+<!-- javascript buatan sendiri  -->
+<script src="./script.js"></script>
+
+</html>
